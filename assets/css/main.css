@@ -2168,7 +2168,7 @@ input, select, textarea {
 	.wrapper {
 		background: #fff;
 		margin: 0 0 2em 0;
-		padding: 6em 0 6em 0;
+		padding: 7em 0 7em 0;
 	}
 
 		.wrapper.style2 {
@@ -3135,6 +3135,7 @@ input, select, textarea {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     padding: 2em 1.5em;
+	overflow: visible;
 }
 
 .special article h3 {
@@ -3152,6 +3153,9 @@ input, select, textarea {
     font-size: 0.95em;
     color: #777;
     line-height: 1.6em;
+}
+.special {
+    overflow: visible;
 }
 
 #header::before {
@@ -3221,12 +3225,20 @@ body {
 }
 
 #header h1 {
-	font-size: 4.5em;
+	white-space: nowrap;
+	font-size: 4em;
     color: white;
     text-shadow: 0 4px 20px rgba(0,0,0,0.6);
 	letter-spacing: 3px;
 }
-
+@media screen and (max-width: 980px) {
+    #header h1 {
+        white-space: normal;
+    }
+}
 #header header > p:first-of-type {
     letter-spacing: 1px;
+}
+.wrapper {
+    overflow: visible;
 }
