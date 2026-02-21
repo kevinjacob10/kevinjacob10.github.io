@@ -185,7 +185,7 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: left;
 	}
 
 	br.clear {
@@ -3157,7 +3157,9 @@ input, select, textarea {
 .special {
     overflow: visible;
 }
-
+.special header {
+    margin-bottom: 3em;
+}
 #header::before {
     background: linear-gradient(
         rgba(0,0,0,0.55),
@@ -3225,8 +3227,8 @@ body {
 }
 
 #header h1 {
-	white-space: nowrap;
-	font-size: 4em;
+	font-size: clamp(2.5em, 6vw, 4em);
+    white-space: nowrap;
     color: white;
     text-shadow: 0 4px 20px rgba(0,0,0,0.6);
 	letter-spacing: 3px;
@@ -3241,4 +3243,7 @@ body {
 }
 .wrapper {
     overflow: visible;
+}
+.wrapper.style1 {
+    padding-top: 6em;
 }
