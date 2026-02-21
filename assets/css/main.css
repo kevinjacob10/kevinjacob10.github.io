@@ -3150,7 +3150,7 @@ input, select, textarea {
 }
 
 #header::before {
-    background: rgba(0,0,0,0.25);
+    display: none;
 }
 
 body.is-preload #header:before {
