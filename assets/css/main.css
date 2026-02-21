@@ -2199,10 +2199,6 @@ input, select, textarea {
 }
 
 
-		#header .inner {
-    position: relative;
-    z-index: 1;
-}
 
 		#header header {
 			display: inline-block;
@@ -2251,7 +2247,6 @@ input, select, textarea {
 		}
 
 	body.homepage #header {
-		height: 60vh;
 		min-height: 400px;
 	}
 
@@ -3161,27 +3156,30 @@ input, select, textarea {
 
 #header::before {
     background: linear-gradient(
-        rgba(0,0,0,0.65),
-        rgba(0,0,0,0.45)
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.35)
     );
 }
 
 #header .inner {
+    position: relative;
+    z-index: 1;
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
     padding: 0 1.5em;
+    animation: fadeUp 0.8s ease forwards;
 }
 
 #header header > p:first-of-type {
     font-size: 1.4em;
     font-weight: 500;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
 }
 
 #header header > p:last-of-type {
     font-size: 1.05em;
-    opacity: 0.85;
+    opacity: 0.95;
 }
 
 #nav > ul {
@@ -3222,6 +3220,13 @@ body {
     }
 }
 
-#header .inner {
-    animation: fadeUp 0.8s ease forwards;
+#header h1 {
+	font-size: 4.5em;
+    color: white;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.6);
+	letter-spacing: 3px;
+}
+
+#header header > p:first-of-type {
+    letter-spacing: 1px;
 }
