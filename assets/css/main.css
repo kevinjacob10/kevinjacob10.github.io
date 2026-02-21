@@ -2709,6 +2709,7 @@ input, select, textarea {
 
 	}
 
+
 /* Mobile */
 
 	#navPanel, #titleBar {
@@ -3110,5 +3111,47 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
-
 	}
+/* ============================= */
+/* ===== CUSTOM PORTFOLIO ===== */
+/* ============================= */
+
+.image.featured img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.image.featured img {
+    transition: transform 0.3s ease;
+}
+
+.image.featured:hover img {
+    transform: scale(1.03);
+}
+.special article {
+    text-align: center;
+    padding: 1em;
+}
+
+.special article h3 {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.special article p {
+    text-align: center;
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 0;
+}
+
+#header::before {
+    background: rgba(0,0,0,0.4);
+}
+
+body.is-preload #header:before {
+    display: none !important;
+}
