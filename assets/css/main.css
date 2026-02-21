@@ -3118,9 +3118,10 @@ input, select, textarea {
 
 .image.featured img {
     width: 100%;
-    height: 280px;
+    height: 340px;
     object-fit: cover;
     border-radius: 8px;
+	transition: transform 0.3s ease;
 }
 .image.featured img {
     transition: transform 0.3s ease;
@@ -3149,7 +3150,7 @@ input, select, textarea {
 }
 
 #header::before {
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.25);
 }
 
 body.is-preload #header:before {
