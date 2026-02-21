@@ -2053,6 +2053,7 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
+		
 		position: relative;
 		display: inline-block;
 		background: #df7366;
@@ -2064,7 +2065,9 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		outline: 0;
-		font-weight: 300;
+		font-weight: 500;
+		letter-spacing: 1px;
+    	border-radius: 50px;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2206,15 +2209,16 @@ input, select, textarea {
 		}
 
 			#header header > p {
-				font-size: 1.25em;
-				margin: 0;
+				color: rgba(255,255,255,0.85);
+    			font-size: 1.3em;
 			}
 
-		#header h1 {
-			color: #fff;
-			font-size: 3em;
-			line-height: 1em;
-		}
+#header h1 {
+    font-size: 4.2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 
 			#header h1 a {
 				color: inherit;
@@ -2644,7 +2648,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				background-attachment: scroll;
+				background-attachment: fixed;
 			}
 
 				#header .inner {
@@ -3024,7 +3028,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				background-attachment: scroll;
+				background-attachment: fixed;
 				padding: 2.5em 0 0 0;
 			}
 
@@ -3035,8 +3039,11 @@ input, select, textarea {
 				}
 
 				#header header > p {
-					font-size: 1em;
-				}
+    color: rgba(255,255,255,0.85);
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+    margin-top: 0.5em;
+}
 
 				#header h1 {
 					font-size: 1.75em;
@@ -3123,16 +3130,16 @@ input, select, textarea {
     border-radius: 8px;
 	transition: transform 0.3s ease;
 }
-.image.featured img {
-    transition: transform 0.3s ease;
-}
 
 .image.featured:hover img {
     transform: scale(1.03);
 }
 .special article {
+    background: white;
+    border-radius: 14px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
-    padding: 1em;
+    padding: 2em 1.5em;
 }
 
 .special article h3 {
@@ -3141,18 +3148,80 @@ input, select, textarea {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
-
+.special article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
 .special article p {
     text-align: center;
-    font-size: 1em;
-    color: #666;
-    margin-bottom: 0;
+    font-size: 0.95em;
+    color: #777;
+    line-height: 1.6em;
 }
 
 #header::before {
+    background: linear-gradient(
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.45)
+    );
+}
+
+#header .inner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1.5em;
+}
+
+#header header > p:first-of-type {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+#header header > p:last-of-type {
+    font-size: 1.05em;
+    opacity: 0.85;
+}
+
+#nav > ul {
+    border: none;
+}
+
+#nav > ul:before,
+#nav > ul:after {
     display: none;
 }
 
-body.is-preload #header:before {
-    display: none !important;
+#nav > ul > li {
+    border: none;
+    padding: 0.6em 1em;
+}
+
+#nav > ul > li > a {
+    color: white;
+    font-weight: 500;
+}
+
+#nav > ul > li > a:hover {
+    color: #ef8376;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#header .inner {
+    animation: fadeUp 0.8s ease forwards;
 }
