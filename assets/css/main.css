@@ -2177,14 +2177,13 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
+#header {
     position: relative;
-    background-image: url("/images/CircuitBreakoutDualPolarity/cb_05.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 60vh;
-    min-height: 450px;
+    height: 75vh;
+    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3174,12 +3173,6 @@ input, select, textarea {
 .special header {
     margin-bottom: 3em;
 }
-#header::before {
-    background: linear-gradient(
-        rgba(0,0,0,0.75),
-        rgba(0,0,0,0.55)
-    );
-}
 #header .inner {
     position: relative;
     z-index: 1;
@@ -3308,7 +3301,7 @@ body {
 }
 
 /* Circuit Breakout background */
-.cb-hero {
+#header.cb-hero {
     background: url("images/CircuitBreakoutDualPolarity/cb_06.jpg") center center / cover no-repeat;
 }
 /* OpenGenLab Hero */
