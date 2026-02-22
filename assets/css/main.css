@@ -3292,7 +3292,7 @@ body {
 
 /* Circuit Breakout background */
 .cb-hero {
-    background: url("../../images/CircuitBreakoutDualPolarity/cb_06.jpg") center center / cover no-repeat;
+    background: url("images/CircuitBreakoutDualPolarity/cb_06.jpg") center center / cover no-repeat;
 }
 .project-media img {
     border-radius: 12px;
