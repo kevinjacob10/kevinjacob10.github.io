@@ -3255,7 +3255,7 @@ body {
     font-size: clamp(2.5em, 6vw, 4em);
     color: white;
     text-shadow: 0 4px 20px rgba(0,0,0,0.6);
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     max-width: 900px;
     margin: 0 auto;
 }
