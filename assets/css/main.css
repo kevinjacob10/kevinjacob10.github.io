@@ -3246,6 +3246,10 @@ body {
     max-width: 900px;
     margin: 0 auto;
 }
+#header .inner h1 {
+    white-space: nowrap;
+    font-size: clamp(2rem, 5vw, 4rem);
+}
 @media screen and (max-width: 980px) {
     #header h1 {
         white-space: normal;
