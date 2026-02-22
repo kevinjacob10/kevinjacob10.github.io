@@ -3289,3 +3289,12 @@ body {
 .cb-hero {
     background: url("../../images/CircuitBreakoutDualPolarity/cb_06.jpg") center center / cover no-repeat;
 }
+.project-media img {
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.project-media img:hover {
+    transform: scale(1.02);
+}
