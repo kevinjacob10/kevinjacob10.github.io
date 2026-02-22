@@ -3286,21 +3286,21 @@ body {
 
 /* Circuit Breakout background */
 #header.cb-hero {
-    background: url("images/CircuitBreakoutDualPolarity/cb_06.jpg") center center / cover no-repeat;
+    background: url("../../images/CircuitBreakoutDualPolarity/cb_06.jpg") center center / cover no-repeat;
 }
 /* OpenGenLab Hero */
 #header.ogl-hero {
-    background: url("images/OpenGenLab/open04.png") center center / cover no-repeat;
+    background: url("../../images/OpenGenLab/open04.png") center center / cover no-repeat;
 }
 
 /* Budget Buster Hero */
 #header.bb-hero {
-    background: url("images/BudgetBuster/budget7.JPG") center center / cover no-repeat;
+    background: url("../../images/BudgetBuster/budget7.JPG") center center / cover no-repeat;
 }
 
 /* ApexPin Hero */
 #header.apex-hero {
-    background: url("images/ApexLegendsPingSystem/ping02.JPG") center center / cover no-repeat;
+    background: url("../../images/ApexLegendsPingSystem/ping02.JPG") center center / cover no-repeat;
 }
 
 .project-media img {
