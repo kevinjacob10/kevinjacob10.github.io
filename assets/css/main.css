@@ -3137,14 +3137,15 @@ input, select, textarea {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     padding: 2em 1.5em;
+	margin-top: 0.2em;
 	overflow: visible;
 }
 
 .special article h3 {
     font-size: 1.6em;
     font-weight: 700;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0.4em;
+    margin-bottom: 0.2em;
 }
 .special article:hover {
     transform: translateY(-4px);
@@ -3153,7 +3154,7 @@ input, select, textarea {
 .special article p {
     text-align: center;
     font-size: 0.95em;
-    color: #777;
+    color: #555;
     line-height: 1.6em;
 }
 .special {
