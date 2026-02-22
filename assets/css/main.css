@@ -3369,3 +3369,13 @@ body {
     height: 100%;
     border: none;
 }
+.doc-header {
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto 2.5em auto;
+}
+
+.doc-header h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
