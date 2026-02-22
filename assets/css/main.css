@@ -3311,6 +3311,20 @@ body {
 .cb-hero {
     background: url("images/CircuitBreakoutDualPolarity/cb_06.jpg") center center / cover no-repeat;
 }
+/* OpenGenLab Hero */
+.ogl-hero {
+    background: url("images/OpenGenLab/open04.png") center center / cover no-repeat;
+}
+
+/* Budget Buster Hero */
+.bb-hero {
+    background: url("images/BudgetBuster/budget7.JPG") center center / cover no-repeat;
+}
+
+/* ApexPin Hero */
+.apex-hero {
+    background: url("images/ApexLegendsPingSystem/ping02.JPG") center center / cover no-repeat;
+
 .project-media img {
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
