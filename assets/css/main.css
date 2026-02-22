@@ -3034,10 +3034,12 @@ input, select, textarea {
 				}
 
 				#header header > p {
-    color: rgba(255,255,255,0.85);
+    ccolor: #ffffff;
+	font-weight: 500;
     font-size: 1.2em;
     letter-spacing: 0.5px;
     margin-top: 0.5em;
+	opacity: 0.95;
 }
 
 				#header h1 {
@@ -3162,11 +3164,10 @@ input, select, textarea {
 }
 #header::before {
     background: linear-gradient(
-        rgba(0,0,0,0.55),
-        rgba(0,0,0,0.35)
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.55)
     );
 }
-
 #header .inner {
     position: relative;
     z-index: 1;
