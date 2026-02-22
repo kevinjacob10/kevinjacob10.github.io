@@ -3284,8 +3284,8 @@ body {
 .project-hero {
     display: flex;
     align-items: center;
-    justify-content: center;   /* center horizontally */
-    text-align: center;        /* center text */
+    justify-content: center;
+    text-align: center;
     min-height: 75vh;
     position: relative;
     padding: 0 2em;
@@ -3293,8 +3293,7 @@ body {
 
 .project-hero .inner {
     max-width: 900px;
-    margin-left: 12%;
-    margin-right: auto;
+    margin: 0 auto;
     position: relative;
     z-index: 2;
 }
