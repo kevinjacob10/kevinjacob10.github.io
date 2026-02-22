@@ -3273,31 +3273,16 @@ body {
 .project-center {
     text-align: center;
 }
-/* Base project hero layout */
-.project-hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    min-height: 75vh;
-    position: relative;
-    padding: 0 2em;
-}
-
-.project-hero .inner {
-    max-width: 900px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-}
-
-/* Dark overlay for readability */
-.project-hero::before {
+#header::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.55);
-    z-index: 1;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.85) 0%,
+        rgba(0,0,0,0.65) 40%,
+        rgba(0,0,0,0.55) 100%
+    );
 }
 
 /* Circuit Breakout background */
