@@ -2177,7 +2177,7 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
+	/*#header {
     position: relative;
     background-image: url("/images/CircuitBreakoutDualPolarity/cb_05.jpg");
     background-size: cover;
@@ -2188,7 +2188,7 @@ input, select, textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 
 		#header::before {
