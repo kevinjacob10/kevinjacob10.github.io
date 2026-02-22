@@ -3260,3 +3260,32 @@ body {
 .project-center {
     text-align: center;
 }
+/* Base project hero layout */
+.project-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 70vh;
+    position: relative;
+}
+
+/* Dark overlay for readability */
+.project-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+}
+
+/* Ensure text sits above overlay */
+.project-hero .inner {
+    position: relative;
+    z-index: 2;
+}
+
+/* Circuit Breakout background */
+.cb-hero {
+    background: url("../../images/CircuitBreakoutDualPolarity/cb_06.jpg") center center / cover no-repeat;
+}
