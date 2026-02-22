@@ -2177,7 +2177,7 @@ input, select, textarea {
 
 /* Header */
 
-	/*#header {
+	#header {
     position: relative;
     background-image: url("/images/CircuitBreakoutDualPolarity/cb_05.jpg");
     background-size: cover;
@@ -2188,7 +2188,7 @@ input, select, textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+} 
 
 
 		#header::before {
@@ -3312,17 +3312,17 @@ body {
     background: url("images/CircuitBreakoutDualPolarity/cb_06.jpg") center center / cover no-repeat;
 }
 /* OpenGenLab Hero */
-.ogl-hero {
+#header.ogl-hero {
     background: url("images/OpenGenLab/open04.png") center center / cover no-repeat;
 }
 
 /* Budget Buster Hero */
-.bb-hero {
+#header.bb-hero {
     background: url("images/BudgetBuster/budget7.JPG") center center / cover no-repeat;
 }
 
 /* ApexPin Hero */
-.apex-hero {
+#header.apex-hero {
     background: url("images/ApexLegendsPingSystem/ping02.JPG") center center / cover no-repeat;
 }
 
