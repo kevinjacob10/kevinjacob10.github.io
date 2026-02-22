@@ -3337,6 +3337,7 @@ body {
     width: 100%;
     height: 100%;
 }
+
 html, body {
     height: 100%;
     margin: 0;
@@ -3347,6 +3348,12 @@ body {
     flex-direction: column;
 }
 
-main {
+#page-wrapper {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    margin-top: auto;
 }
