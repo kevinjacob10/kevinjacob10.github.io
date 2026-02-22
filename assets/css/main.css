@@ -3275,9 +3275,9 @@ body {
 }
 
 .project-hero .inner {
-    text-align: center;
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin-left: 12%;
+    margin-right: auto;
     position: relative;
     z-index: 2;
 }
