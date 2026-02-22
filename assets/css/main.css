@@ -3137,7 +3137,8 @@ input, select, textarea {
     transform: scale(1.03);
 }
 .special article {
-    background: white;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
     border-radius: 14px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
@@ -3149,8 +3150,8 @@ input, select, textarea {
 .special article h3 {
     font-size: 1.6em;
     font-weight: 700;
-    margin-top: 0.4em;
-    margin-bottom: 0.2em;
+    margin-top: 0.6em;
+    margin-bottom: 0.15em;
 }
 .special article:hover {
     transform: translateY(-4px);
@@ -3160,7 +3161,7 @@ input, select, textarea {
     text-align: center;
     font-size: 0.95em;
     color: #555;
-	margin-top: 0.3em;
+	margin-top: 0.25em;
     margin-bottom: 0;
     line-height: 1.6em;
 }
