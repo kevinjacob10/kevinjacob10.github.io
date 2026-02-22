@@ -2216,7 +2216,7 @@ input, select, textarea {
 
 #header h1 {
     font-size: 4.2em;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 2px;
 	color: white;
     text-shadow: 0 8px 40px rgba(0,0,0,0.85);
@@ -3047,6 +3047,7 @@ input, select, textarea {
     letter-spacing: 0.5px;
     margin-top: 0.5em;
 	opacity: 0.95;
+	text-shadow: 0 4px 18px rgba(0,0,0,0.85);
 }
 
 				#header h1 {
