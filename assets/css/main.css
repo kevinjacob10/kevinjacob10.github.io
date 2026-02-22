@@ -3297,9 +3297,10 @@ body {
 .project-media img:hover {
     transform: scale(1.02);
 }
-video-wrapper {
+
+.video-wrapper {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 56.25%; /* 16:9 */
     height: 0;
     overflow: hidden;
     border-radius: 12px;
@@ -3307,6 +3308,7 @@ video-wrapper {
 }
 
 .video-wrapper iframe {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
