@@ -3339,16 +3339,20 @@ body {
 }
 
 .site-footer {
-    background: #241f2b;   /* same dark purple tone */
+    background: #241f2b;
     padding: 4em 1em;
-    text-align: center;
+    text-align: center;   /* this centers text */
     color: #d6d6d6;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;       /* centers the block */
 }
 
 .site-footer h3 {
     margin-bottom: 1em;
     font-weight: 500;
-    letter-spacing: 1px;
 }
 
 .site-footer p {
@@ -3356,7 +3360,7 @@ body {
 }
 
 .site-footer a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     border-bottom: 1px solid rgba(255,255,255,0.3);
     transition: 0.3s ease;
@@ -3364,7 +3368,6 @@ body {
 
 .site-footer a:hover {
     border-bottom: 1px solid white;
-    opacity: 0.8;
 }
 
 .site-footer .copyright {
