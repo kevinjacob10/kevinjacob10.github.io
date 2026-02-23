@@ -103,6 +103,8 @@
                             <p>
                                 Head-tracked gaze interaction framework enabling tool selection, menu activation, 
                                 object manipulation and procedural validation without traditional controllers.
+                                Implemented using raycast-based head tracking with timed dwell selection, 
+                                state-driven interaction layers and contextual validation checks to reduce VR fatigue.
                             </p>
                         </div>
 
@@ -111,22 +113,49 @@
                             <p>
                                 Puzzle-driven sequencing system requiring players to correctly arrange buffers, 
                                 reagents and execution order before initiating the amplification process.
-                                Includes state validation and error feedback logic.
+                                Built using a finite state validation system enforcing correct experimental 
+                                sequencing with structured error feedback and process gating.
                             </p>
                         </div>
 
                         <div class="col-4 col-12-mobile">
                             <h4>DNA Sequencer Logic System</h4>
                             <p>
-                                Implemented primer matching and DNA sequence validation system where players
-                                analyze plant samples, select correct primers and interpret sequencing output.
-                                Designed to reflect real-world experimental logic.
+                                Primer matching and DNA sequence validation system where players analyze plant samples, 
+                                select appropriate primers and interpret sequencing results. 
+                                Implemented rule-based primer pairing logic with sequence comparison algorithms 
+                                and dynamic visual feedback reflecting real-world experimental constraints.
                             </p>
                         </div>
 
                     </div>
                 </section>
+<!-- Technical Challenges -->
+<section>
+    <header class="major">
+        <h2>Technical Challenges & Solutions</h2>
+    </header>
 
+    <ul>
+        <li>
+            <strong>Balancing Biological Accuracy with Gameplay Clarity:</strong> 
+            Translated real molecular biology workflows into state-driven gameplay systems 
+            while maintaining scientific correctness through collaboration with subject matter experts.
+        </li>
+
+        <li>
+            <strong>Reducing VR Fatigue in Gaze-Based Interaction:</strong> 
+            Designed timed dwell activation and contextual interaction states to prevent accidental triggers 
+            and minimize sustained head movement strain.
+        </li>
+
+        <li>
+            <strong> Multi-Step Experimental Validation Procedures:</strong> 
+            Implemented layered validation logic ensuring correct buffer sequencing, primer pairing 
+            and execution order before advancing simulation states.
+        </li>
+    </ul>
+</section>
             </article>
 
         </div>
