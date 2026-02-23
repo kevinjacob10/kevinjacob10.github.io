@@ -3132,7 +3132,7 @@ input, select, textarea {
     font-size: 1.6em;
     font-weight: 700;
     margin-top: 0.6em;
-    margin-bottom: 0.15em;
+    margin-bottom: 0.25em;
 }
 .special article:hover {
     transform: translateY(-4px);
@@ -3140,8 +3140,9 @@ input, select, textarea {
 }
 .special article p {
     text-align: center;
-    font-size: 0.95em;
-    color: #555;
+    font-size: 1.05em;
+    color: #444;
+	font-weight: 400;
 	margin-top: 0.25em;
     margin-bottom: 0;
     line-height: 1.6em;
