@@ -3401,7 +3401,6 @@ body {
     font-weight: 700;
     margin-bottom: 0.6em;
     letter-spacing: 1px;
-	 margin-top: 2.5em;
 }
 
 .about-content .lead {
@@ -3444,13 +3443,37 @@ body {
 .contact-block a:hover {
     text-decoration: underline;
 }
+contact-block {
+    text-align: center;
+}
 
+.contact-block a {
+    display: block;
+    margin-bottom: 0.6em;
+}
 .about-sidebar img {
     border-radius: 12px;
     box-shadow: 0 12px 30px rgba(0,0,0,0.15);
     margin-bottom: 2em;
 }
 
+.education-block {
+    margin-bottom: 4em;
+}
+
+.education-block p {
+    margin-bottom: 0.8em;
+}
+.about-content {
+    padding-right: 2em;
+}
+
+.about-sidebar {
+    text-align: center;
+}
+.wrapper.style1 {
+    padding-bottom: 6em;
+}
 /* ============================= */
 /* RESUME PAGE  */
 /* ============================= */
