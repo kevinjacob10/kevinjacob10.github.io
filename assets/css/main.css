@@ -3298,6 +3298,13 @@ body {
     border-left: 4px solid #ef8376;
     border-radius: 8px;
 }
+.role-details p {
+    margin: 0;
+    font-size: 1.05em;
+    line-height: 1.8em;
+    color: #333;
+}
+
 /* Circuit Breakout background */
 #header.cb-hero {
     background: url("../../images/CircuitBreakoutDualPolarity/cb_06.jpg") center center / cover no-repeat;
