@@ -2201,15 +2201,6 @@ input, select, textarea {
     			font-size: 1.3em;
 			}
 
-#header h1 {
-    font-size: 4.2em;
-    font-weight: 800;
-    letter-spacing: 2px;
-	color: white;
-    text-shadow: 0 8px 40px rgba(0,0,0,0.85);
-    text-transform: uppercase;
-}
-
 			#header h1 a {
 				color: inherit;
 			}
@@ -3271,7 +3262,42 @@ body {
         rgba(0,0,0,0.55) 100%
     );
 }
+/* ===== PROJECT PAGE TYPOGRAPHY REFINEMENT ===== */
 
+#main h2 {
+    font-size: 2.6em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.6em;
+}
+
+#main h3 {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-top: 1.8em;
+    margin-bottom: 0.6em;
+}
+
+#main p {
+    font-size: 1.05em;
+    color: #333;
+    line-height: 1.8em;
+}
+
+#main ul li {
+    font-size: 1.05em;
+    color: #444;
+    line-height: 1.8em;
+    margin-bottom: 0.8em;
+}
+
+.role-details {
+    margin-bottom: 2em;
+    padding: 1.5em;
+    background: #fafafa;
+    border-left: 4px solid #ef8376;
+    border-radius: 8px;
+}
 /* Circuit Breakout background */
 #header.cb-hero {
     background: url("../../images/CircuitBreakoutDualPolarity/cb_06.jpg") center center / cover no-repeat;
@@ -3297,6 +3323,7 @@ body {
 
 #header.home-hero h1 {
     white-space: nowrap;
+	letter-spacing: 3px;
 }
 
 .project-media img {
@@ -3466,6 +3493,18 @@ body {
     line-height: 1.7;
 }
 
+.tech-grid > div {
+    padding: 1.5em;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tech-grid > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 35px rgba(0,0,0,0.08);
+}
 @media screen and (max-width: 736px) {
     .tech-grid {
         grid-template-columns: 1fr;
