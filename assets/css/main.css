@@ -3455,6 +3455,13 @@ body {
     width: fit-content;
     font-size: 0.95em;
 }
+.contact-block p {
+    margin-bottom: 0.2em;
+}
+
+.contact-block a {
+    margin: 0.3em auto;
+}
 .about-sidebar img {
     border-radius: 12px;
     box-shadow: 0 12px 30px rgba(0,0,0,0.15);
