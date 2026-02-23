@@ -13,9 +13,9 @@ pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
+form, label, legend, table, capxion, tbody,
 tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
+canvas, details, embed, figure, figcapxion,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
@@ -25,7 +25,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-article, aside, details, figcaption, figure,
+article, aside, details, figcapxion, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
@@ -84,8 +84,8 @@ input, select, textarea {
 
 	body {
 		background: #f0f4f4;
-		color: #5b5b5b;
-		font-size: 15pt;
+		color: #3a3a3a;
+		font-size: 16.5px;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
@@ -103,7 +103,7 @@ input, select, textarea {
 		}
 
 	input, textarea, select {
-		font-size: 15pt;
+		font-size: 15px;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
@@ -126,7 +126,9 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 2.85em;
+    font-size: 2.8em;
+    font-weight: 700;
+    letter-spacing: 1px;
 	}
 
 	h3 {
@@ -135,6 +137,8 @@ input, select, textarea {
 
 	h4 {
 		font-size: 1em;
+		font-weight: 600;
+    	margin-bottom: 0.6em;
 		margin: 0 0 0.25em 0;
 	}
 
@@ -231,7 +235,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 1400px;
+		width: 1200px;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1825,6 +1829,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			margin-bottom: 0.6em;
 		}
 
 	ol {
@@ -2059,7 +2064,6 @@ input, select, textarea {
 		background: #df7366;
 		color: #fff;
 		text-align: center;
-		border-radius: 0.5em;
 		text-decoration: none;
 		padding: 0.65em 3em 0.65em 3em;
 		border: 0;
@@ -2188,22 +2192,6 @@ input, select, textarea {
     align-items: center;
     justify-content: center;
 } 
-
-
-		#header::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        to bottom,
-        rgba(0,0,0,0.85) 0%,
-        rgba(0,0,0,0.65) 40%,
-        rgba(0,0,0,0.55) 100%
-    );
-}
-
-
-
 		#header header {
 			display: inline-block;
 		}
@@ -2607,7 +2595,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 14pt;
+				font-size: 14px;
 				line-height: 1.75em;
 			}
 
@@ -2635,7 +2623,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 12pt;
+				font-size: 12px;
 				line-height: 1.5em;
 			}
 
@@ -2682,7 +2670,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 13pt;
+				font-size: 13px;
 				line-height: 1.65em;
 			}
 
@@ -2730,7 +2718,7 @@ input, select, textarea {
 			}
 
 			body, input, textarea, select {
-				font-size: 12.5pt;
+				font-size: 12.5px;
 				line-height: 1.5em;
 			}
 
@@ -2965,7 +2953,7 @@ input, select, textarea {
 						border-top: 0;
 					}
 
-					#navPanel .link.depth-0 {
+					#navPanel .link.depxh-0 {
 						color: #fff;
 						font-weight: 600;
 					}
@@ -2995,7 +2983,7 @@ input, select, textarea {
 					width: 5em;
 				}
 
-				#navPanel .depth-0 {
+				#navPanel .depxh-0 {
 					color: #fff;
 				}
 
@@ -3313,7 +3301,7 @@ body {
 
 .project-media img {
     border-radius: 12px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
     transition: transform 0.3s ease;
 }
 
