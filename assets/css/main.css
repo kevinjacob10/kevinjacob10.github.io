@@ -3401,6 +3401,7 @@ body {
     font-weight: 700;
     margin-bottom: 0.6em;
     letter-spacing: 1px;
+	 margin-top: 2.5em;
 }
 
 .about-content .lead {
@@ -3409,7 +3410,11 @@ body {
     color: #333;         /* darker = stronger presence */
     margin-bottom: 2.5em;
 }
-
+.about-content ul li {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 0.8em;
+}
 .skills-block ul {
     list-style: disc;
     padding-left: 1.2em;
