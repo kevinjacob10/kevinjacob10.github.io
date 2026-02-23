@@ -3446,12 +3446,13 @@ body {
 }
 .contact-block {
     text-align: center;
-	margin-top: 1em;
+	margin-top: 1.5em;
 }
 
 .contact-block a {
-    display: inline-block;     /* KEY CHANGE */
-    margin: 0.4em 0;
+    display: block;
+    margin: 0.6em auto;
+    width: fit-content;
     font-size: 0.95em;
 }
 .about-sidebar img {
@@ -3477,7 +3478,7 @@ body {
 }
 
 .contact-block h3 {
-    margin-bottom: 0.8em;
+    text-align: center;
 }
 .education-block h3 {
     margin-bottom: 1.5em;
