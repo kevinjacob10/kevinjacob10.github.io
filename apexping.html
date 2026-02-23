@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Apex Legends Ping System</title>
+    <title>Context-Sensitive Ping System (Apex Legends Study)</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -26,9 +26,9 @@
         <!-- Cinematic Hero -->
         <div class="inner">
             <header>
-                <h1>Apex Legends Ping System</h1>
+                <h1>Context-Sensitive Ping System (Apex Legends Study)</h1>
                 <p>
-                    Gameplay Programming · UI Programming<br>
+                    Gameplay Systems · UI Architecture<br>
                     (Personal Project)
                 </p>
             </header>
@@ -48,38 +48,50 @@
                 </header>
 
                 <p>
-                    A personal project recreating a modular and scalable UI ping system
+                A systems-focused recreation of Apex Legends' context-sensitive ping system, 
+                rebuilt in Unity to explore scalable UI architecture, world-space and screen-space 
+                synchronization and input-driven state transitions.
+                </p>
+
+                <p>
+                The goal of this project was not to visually replicate the feature but to 
+                architect a modular ping framework capable of handling contextual input, 
+                off-screen projection logic and radial selection mechanics.
+                
                 </p>
 
                 <!-- Role Details -->
                 <section>
-                    <header>
-                        <h3>Role & Production Details</h3>
-                    </header>
-                    <div class="role-details">
-                    <p>
-                        <strong>Role:</strong> Gameplay Programming | UI Programming<br>
-                        <strong>Engine:</strong> Unity (C#)<br>
-                        <strong>Platform:</strong> PC <br>
-                        <strong>Duration:</strong> 3 Months
-                    </p>
-                    </div>
-                </section>
+                <header>
+                <h3>Role & Production Details</h3>
+                </header>
+                <div class="role-details">
+                <p>
+            <strong>Role:</strong> Gameplay Systems & UI Programmer<br>
+            <strong>Engine:</strong> Unity (C#)<br>
+            <strong>Platform:</strong> PC<br>
+            <strong>Duration:</strong> 4 Months (Personal Technical Study)<br>
+            <strong>Focus:</strong> Systems Architecture · Input Handling · UI/World Synchronization
+                </p>
+                </div>
+        </section>
 
-                <!-- Contributions -->
-                <section>
-                    <header>
-                        <h3>My Contributions</h3>
-                    </header>
+                <!-- Core Responsibilities -->
+<section>
+    <header>
+        <h3>Core Implementation Areas</h3>
+    </header>
 
-                    <ul>
-                        <li>Designed and implemented dual polarity combat system</li>
-                        <li>Built modular ability architecture supporting scalability</li>
-                        <li>Developed state-machine based AI behavior framework</li>
-                        <li>Implemented combat feedback systems (VFX, UI cues, hit response)</li>
-                        <li>Optimized gameplay systems for performance stability</li>
-                    </ul>
-                </section>
+    <ul>
+        <li>Architected a modular ping management system supporting contextual ping types</li>
+        <li>Designed dual-camera UI setup separating world-space and screen-space canvases</li>
+        <li>Implemented off-screen projection using normalized screen-space vectors</li>
+        <li>Built radial ping wheel system driven by hold/release input state transitions</li>
+        <li>Implemented billboard logic to maintain world-space UI readability</li>
+        <li>Developed ping lifetime and priority handling logic</li>
+        <li>Integrated Unity's New Input System with interaction-based bindings</li>
+    </ul>
+</section>
 
                 <!-- Core Systems -->
                 <section>
@@ -90,32 +102,65 @@
                     <div class="row">
 
                         <div class="col-4 col-12-mobile">
-                            <h4>Dual Polarity</h4>
+                            <h4>World & Screen Space Ping Architecture</h4>
                             <p>
-                                Modular state architecture allowing instant switching
-                                while preserving animation continuity and responsiveness.
+                                Implemented dual-camera setup with separate canvases for world-space 
+                                and overlay UI. Off-screen pings are projected using normalized 
+                                direction vectors and clamped to a fixed-radius boundary in screen space.
                             </p>
                         </div>
 
                         <div class="col-4 col-12-mobile">
-                            <h4>Ability Framework</h4>
+                            <h4>Context-Sensitive Input Handling</h4>
                             <p>
-                                Reusable ability system supporting cooldown logic,
-                                layered effects, and scalable expansion.
+                                Built using Unity’s New Input System with interaction based triggers 
+                                (Press vs Release). Hold input activates radial selection mode, 
+                                while release input spawns contextual pings based on state evaluation.
                             </p>
                         </div>
 
                         <div class="col-4 col-12-mobile">
-                            <h4>Enemy AI</h4>
+                            <h4>Ping Lifecycle & Priority System</h4>
                             <p>
-                                Extensible state-machine AI allowing new behaviors
-                                without rewriting base logic.
+                                Designed ping objects with time-based destruction and 
+                                priority-aware display logic to ensure higher-importance 
+                                pings override less critical ones when off-screen.
                             </p>
                         </div>
 
                     </div>
                 </section>
+            <!-- Technical Challenges -->
+    <section>
+    <header class="major">
+        <h2>Technical Challenges & Solutions</h2>
+    </header>
 
+    <ul>
+        <li>
+            <strong>Synchronizing World-Space and Screen-Space UI:</strong>
+            Solved by separating rendering responsibilities across dedicated cameras 
+            and using coordinate transformation to project world positions into UI space.
+        </li>
+
+        <li>
+            <strong>Off-Screen Ping Accuracy:</strong>
+            Calculated direction vectors from screen center to projected world position, 
+            normalized and clamped to a defined radius to maintain consistent UI placement.
+        </li>
+
+        <li>
+            <strong>Input State Conflicts (Tap vs Hold):</strong>
+            Resolved using interaction-based bindings in Unity’s New Input System 
+            to differentiate between quick ping actions and ping wheel activation.
+        </li>
+
+        <li>
+            <strong>Maintaining UI Readability in 3D Space:</strong>
+            Implemented billboard rotation logic aligning world-space UI with camera orientation.
+        </li>
+    </ul>
+</section>
             </article>
 
         </div>
@@ -125,7 +170,7 @@
     <div class="container">
 
         <header class="major">
-            <h2>My Work</h2>
+            <h2>Gameplay Demonstration</h2>
         </header>
 
      <div class="video-wrapper">
