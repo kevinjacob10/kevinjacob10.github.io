@@ -3576,3 +3576,8 @@ body {
 .contact-block a:hover {
     text-decoration: underline;
 }
+
+#header .tagline {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.92);
+}
