@@ -3439,3 +3439,31 @@ body {
     height: 100%;
     border: none;
 }
+/* ===== CORE TECHNOLOGIES ===== */
+
+.tech-block {
+    margin-top: 3em;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+}
+
+.tech-grid h4 {
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 0.4em;
+}
+
+.tech-grid p {
+    font-size: 0.95em;
+    color: #555;
+}
+
+@media screen and (max-width: 736px) {
+    .tech-grid {
+        grid-template-columns: 1fr;
+    }
+}
