@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 1.7;
 }
 
 ol, ul {
@@ -3362,16 +3362,17 @@ body {
 }
 
 .about-content h2 {
-    font-size: 2.2em;
+    font-size: 2.6em;   /* was 2.2em */
     font-weight: 700;
     margin-bottom: 0.6em;
+    letter-spacing: 1px;
 }
 
 .about-content .lead {
-    font-size: 1.05em;
-    line-height: 1.8em;
-    color: #444;
-    margin-bottom: 2em;
+    font-size: 1.15em;   /* was 1.05em */
+    line-height: 1.9em;  /* slightly more breathing */
+    color: #333;         /* darker = stronger presence */
+    margin-bottom: 2.5em;
 }
 
 .skills-block ul {
@@ -3388,9 +3389,10 @@ body {
 .contact-block h3,
 .skills-block h3,
 .education-block h3 {
-    font-size: 1.2em;
+    font-size: 1.3em;   /* was 1.2em */
     font-weight: 700;
-    margin-bottom: 0.8em;
+    margin-bottom: 1em;
+    letter-spacing: 0.5px;
 }
 
 .contact-block a {
@@ -3452,14 +3454,16 @@ body {
 }
 
 .tech-grid h4 {
-    font-size: 1em;
+    font-size: 1.1em;   /* was 1em */
     font-weight: 700;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.5px;
 }
 
 .tech-grid p {
-    font-size: 0.95em;
-    color: #555;
+    font-size: 1em;     /* was 0.95em */
+    color: #444;        /* slightly darker for contrast */
+    line-height: 1.7;
 }
 
 @media screen and (max-width: 736px) {
