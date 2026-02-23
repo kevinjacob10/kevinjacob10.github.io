@@ -3445,13 +3445,14 @@ body {
     text-decoration: underline;
 }
 contact-block {
-	margin-top: 0.5em;
     text-align: center;
+	margin-top: 1em;
 }
 
 .contact-block a {
-    display: block;
-    margin-bottom: 0.8em;
+    display: inline-block;     /* KEY CHANGE */
+    margin: 0.4em 0;
+    font-size: 0.95em;
 }
 .about-sidebar img {
     border-radius: 12px;
@@ -3476,11 +3477,28 @@ contact-block {
 }
 
 .contact-block h3 {
-    margin-bottom: 0.6em;
+    margin-bottom: 0.8em;
 }
 .education-block h3 {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
+.education-block .degree {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #2f2f2f;
+    margin-bottom: 0.3em;
+}
+
+.education-block .institution {
+    font-size: 0.98em;
+    color: #666;
+    margin-bottom: 1.4em;
+}
+
+.education-block .degree:not(:first-of-type) {
+    margin-top: 1em;
+}
+
 .wrapper.style1 {
     padding-bottom: 6em;
 }
